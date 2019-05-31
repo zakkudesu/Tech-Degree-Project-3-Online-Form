@@ -20,8 +20,11 @@
 
 
         <form action="/zachs-online-form" method="post">
-                  
-                <!-- add Contact Information section title -->
+
+                <fieldset>
+                  <legend>
+                      Contact Information
+                  </legend>
                   <div>
                     <label for="name">Full Name</label>
                     <input type="text" id="name" name="user_name">
@@ -37,28 +40,36 @@
                   <div>
                     <label for="address">Street Address</label>
                     <input type="text" name="user_address">
-                  <div>
-                    <label for="city">City</label>
-                    <input id="text" name="user_city">
                   </div>
                   <div>
-
-                    <!-- change to dropdown -->
-                    <label for="city">State</label>
-                    <input id="text" name="user_city">
+                    <label for="address">City</label>
+                    <input type="text" name="user_address">
                   </div>
-                 </div>
+                  <div> 
+                    <p>State</p> 
+                    <select name="Choose State">
+                      <option value=""></option>
+                      <option value=""></option>
+                      <option value=""></option>
+                    </select>
+                  </div>
+                  <div>
+                      <label for="zipcode">Zipcode</label>
+                      <input type="text" name="user_zipcode">
+                    </div>
+                </fieldset>
 
-                    <!-- add zip -->
+                  <fieldset>
+                      <legend>
+                          Newsletter
+                      </legend>
+                    
+                    <!-- prompt #1 w/ checkbox-->
 
-                    <!-- add Newsletter section title -->
-
-                    <!-- prompt #1 w/ radio button-->
-
-                    <!-- prompt #2 w/ radio button-->
+                    <!-- prompt #2 w/ radio buttons-->
 
                     <!-- prompt with textarea-->
-
+                  </fieldset>
 
                  <div class="button">
                         <button type="submit">Sign Up</button>
