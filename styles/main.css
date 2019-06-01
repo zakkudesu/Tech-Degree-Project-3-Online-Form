@@ -1,6 +1,7 @@
 /* Universal Styles */
 body{
     font-family: 'Noto Serif', serif;
+
 }
 
 h2{
@@ -31,12 +32,41 @@ h1{
 }
 
 p{
-    padding-bottom: 2em;
+    padding: 1.5em;
+    
+}
+
+fieldset{
+    border: none;
+    padding: 2em;
+    margin: 5%;
+}
+
+hr{
+    margin-bottom: 1em
+    
+}
+
+footer{
+    padding: 1em;
+    font-size: 125%;
+}
+
+legend{
+    font-size: 150%;
 }
 
 
-footer{
-    padding-top: 1em;
+
+#signup{
+    font-size: 200%;
+    background: #35e953;
+    padding: .5em 3em;
+    border: none;
+    color: #fff;
+    text-align: center;
+    display: block;
+    
 }
 
 
@@ -64,8 +94,16 @@ textarea:focus {
     .largescreens{
         display: flex;
         flex-direction: column;
-        max-width: 768px;
         
+    }
+
+    fieldset{
+        display: flex;
+        text-align: left;
+    }
+
+    legend{
+        text-align: left;
     }
 
 

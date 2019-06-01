@@ -15,12 +15,12 @@
         <h2>The Code Review</h2>
         <h1>Signup for our newsletter</h1>
             <p>Get the latest news on how your code is doing right in your inbox</p>
-        <hr>
     </header>
     
     <main>
 
       <div class="mobile">
+          <hr>
         <form action="/zachs-online-form" method="post">
 
                 <fieldset>
@@ -29,7 +29,7 @@
                   </legend>
                     <div>
                       <label for="name">Full Name</label><br>
-                      <input type="text" id="name" name="user_name"  placeholder="required">
+                      <input type="text" id="name" name="user_name"  placeholder="required" >
                     </div>
                     <div>
                       <label for="mail">E-mail Address</label><br>
@@ -60,6 +60,8 @@
                         <input type="text" id="zipcode" name="user_zipcode" placeholder="12345">
                       </div>
                 </fieldset>
+
+                <hr>
 
                   <fieldset>
                       <legend>
@@ -98,16 +100,17 @@
                         <textarea placeholder="I wanna know more about..." name="other" id="otherTopics" ></textarea>
                         </textarea>
                       </div>
-
+                      
+                      <div class="button">
+                          <input type="submit" value="Sign Up" id= "signup">
+                    </div>
                   </fieldset>
 
-                 <div class="button">
-                        <button type="submit">Sign Up</button>
-                </div>
         </form>
       </div>
 
       <div class="largescreens">
+          <hr>
           <form action="/zachs-online-form" method="post">
   
                   <fieldset>
@@ -147,7 +150,8 @@
                           <input type="text" id="zipcode" name="user_zipcode" placeholder="12345">
                         </div>
                   </fieldset>
-  
+              <hr>
+                    
                     <fieldset>
                         <legend>
                             Newsletter
@@ -158,7 +162,7 @@
                             "Alternatively, you can nest the <input> directly inside the <label>, 
                             in which case the for and id attributes are not needed 
                             because the association is implicit:-->
-          
+                          <br>
                           <input type="checkbox" name="topic"
                           value="htmlNews"/>HTML News <br>
                           <input type="checkbox" name="topic"
@@ -186,12 +190,14 @@
                           <textarea placeholder="I wanna know more about..." name="other" id="otherTopics" ></textarea>
                           </textarea>
                         </div>
+
+                        <div class="button">
+                            <input type="submit" value="Sign Up" id= "signup">
+                        </div>
   
                     </fieldset>
   
-                   <div class="button">
-                          <button type="submit">Sign Up</button>
-                  </div>
+                  
           </form>
         </div>
 
