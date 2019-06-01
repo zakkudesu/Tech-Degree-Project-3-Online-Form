@@ -19,6 +19,21 @@ footer{
     text-align: center;
 }
 
+h1,
+p{
+    background-color: #5e5c5c;
+    color: #fff;
+    margin: 0;
+}
+
+h1{
+    padding-top: 1em;
+}
+
+p{
+    padding-bottom: 2em;
+}
+
 
 footer{
     padding-top: 1em;
