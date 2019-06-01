@@ -3,6 +3,28 @@ body{
     font-family: 'Noto Serif', serif;
 }
 
+h2{
+    text-transform: uppercase;
+    background-color: coral;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+h1,
+p,
+footer{
+    text-align: center;
+}
+
+
+footer{
+    padding-top: 1em;
+}
+
+
 input:focus { 
     background-color: #e7e7e7;
     outline: none !important;
@@ -26,7 +48,11 @@ textarea:focus {
 
     .largescreens{
         display: flex;
+        flex-direction: column;
+        max-width: 768px;
+        
     }
+
 
 
 }
