@@ -65,8 +65,12 @@
                           Newsletter
                       </legend>
                         <div class="newsletter">
-                        <label for="newsLetter">Select the newsletters you would like to recieve 
-                        </label><br>
+                        <label>Select the newsletters you would like to recieve
+                          <!-- MDN Label Element Documentation:
+                          "Alternatively, you can nest the <input> directly inside the <label>, 
+                          in which case the for and id attributes are not needed 
+                          because the association is implicit:-->
+                        <br>
                         <input type="checkbox" name="topic"
                         value="htmlNews"/>HTML News <br>
                         <input type="checkbox" name="topic"
@@ -74,13 +78,19 @@
                         <input type="checkbox" name="topic"
                         value="javaScriptNews">JavaScript News
                         </div>
+                      </label>
 
                       <div class="format">
-                          <label for="format">Newsletter format
-                            </label><br>
+                          <label>Newsletter format
+                         <!-- MDN Label Element Documentation:
+                          "Alternatively, you can nest the <input> directly inside the <label>, 
+                          in which case the for and id attributes are not needed 
+                          because the association is implicit:-->
+                            <br>
                         <input type="radio" name="format" value="html"> HTML <br>
                         <input type="radio" name="format" value="plainText"> Plain text
                       </div>
+                       </label>
                       
                       <div class="textArea">
                       <label for="otherTopics"> Other topics you'd like to hear about</label><br>
