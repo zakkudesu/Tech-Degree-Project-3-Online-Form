@@ -27,27 +27,27 @@
                   </legend>
                   <div>
                     <label for="name">Full Name</label>
-                    <input type="text" id="name" name="user_name">
+                    <input type="text" id="name" name="user_name"  placeholder="required">
                   </div>
                   <div>
                     <label for="mail">E-mail Address</label>
-                    <input type="email" id="mail" name="user_mail">
+                    <input type="email" id="mail" name="user_mail" placeholder="required">
                   </div>
                   <div>
                     <label for="phone">Phone Number</label>
-                    <input type="telephone" name="user_phone">
+                    <input type="telephone" id="phone" name="user_phone">
                   </div>
                   <div>
                     <label for="address">Street Address</label>
-                    <input type="text" name="user_address">
+                    <input type="text" id="address" name="user_address">
                   </div>
                   <div>
-                    <label for="address">City</label>
-                    <input type="text" name="user_address">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="user_address">
                   </div>
                   <div> 
                     <p>State</p> 
-                    <select name="Choose State">
+                    <select name="chooseState" id="state">
                       <option value=""></option>
                       <option value=""></option>
                       <option value=""></option>
@@ -55,7 +55,7 @@
                   </div>
                   <div>
                       <label for="zipcode">Zipcode</label>
-                      <input type="text" name="user_zipcode">
+                      <input type="text" id="zip" name="user_zipcode">
                     </div>
                 </fieldset>
 
@@ -63,25 +63,29 @@
                       <legend>
                           Newsletter
                       </legend>
-                      <div>Select the newsletters you would like to recieve
-                        <br/>
+                      <div class="newsletter">
+                      <label for="selectNews">Select the newsletters you would like to recieve 
+                      </label><br>
                       <input type="checkbox" name="topic"
-                      value="htmlNews"/>HTML News <br>
+                      id="htmlNews"/>HTML News <br>
                       <input type="checkbox" name="topic
-                      value="cssNews">CSS News <br>
+                      id="cssNews">CSS News <br>
                       <input type="checkbox" name="topic
-                      value="javaScriptNews">JavaScript News
+                      id="javaScriptNews">JavaScript News
                       </div>
 
-                    <div>Newsletter format
-                      <br/>
-                      <input type="radio" name="format" value="html"> HTML <br>
-                      <input type="radio" name="format" value="plainText"> Plain text
+                    <div class="format">
+                        <label for="format">Newsletter format
+                          </label><br>
+                      <input type="radio" name="format" id="html"> HTML <br>
+                      <input type="radio" name="format" id="plainText"> Plain text
                     </div>
                     
-                    <div>Other topics you'd like to hear about</div>
+                    <div class="textArea">
+                     <label for="otherTopics"> Other topics you'd like to hear about</label><br>
                       <textarea name="other" id="otherTopics" >
                       </textarea>
+                    </div>
 
                   </fieldset>
 
