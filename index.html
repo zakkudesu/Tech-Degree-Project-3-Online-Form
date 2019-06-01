@@ -49,7 +49,7 @@
                     <div> 
                       <label for="state">State</label><br>
                       <select name="chooseState" id="state">
-                        <option value=""></option>
+                        <option value="" disabled selected>Choose State</option>
                         <option value=""></option>
                         <option value=""></option>
                       </select>
@@ -114,35 +114,35 @@
                         Contact Information
                     </legend>
                       <div>
-                        <label for="name">Full Name</label><br>
+                        <label for="name">Full Name</label>
                         <input type="text" id="name" name="user_name"  placeholder="required">
                       </div>
                       <div>
-                        <label for="mail">E-mail Address</label><br>
+                        <label for="mail">E-mail Address</label>
                         <input type="email" id="mail" name="user_mail" placeholder="required">
                       </div>
                       <div>
-                        <label for="phone">Phone Number</label><br>
+                        <label for="phone">Phone Number</label>
                         <input type="telephone" id="phone" name="user_phone" placeholder="555-555-5555">
                       </div>
                       <div>
-                        <label for="address">Street Address</label><br>
+                        <label for="address">Street Address</label>
                         <input type="text" id="address" name="user_address" placeholder="125 Main St.">
                       </div>
                       <div>
-                        <label for="city">City</label><br>
+                        <label for="city">City</label>
                         <input type="text" id="city" name="user_address" placeholder="Smallville">
                       </div>
                       <div> 
-                        <label for="state">State</label><br>
+                        <label for="state">State</label>
                         <select name="chooseState" id="state">
-                          <option value=""></option>
+                          <option value="" disabled selected>Choose State</option>
                           <option value=""></option>
                           <option value=""></option>
                         </select>
                       </div>
                       <div>
-                          <label for="zipcode">Zipcode</label><br>
+                          <label for="zipcode">Zipcode</label>
                           <input type="text" id="zipcode" name="user_zipcode" placeholder="12345">
                         </div>
                   </fieldset>
@@ -157,7 +157,7 @@
                             "Alternatively, you can nest the <input> directly inside the <label>, 
                             in which case the for and id attributes are not needed 
                             because the association is implicit:-->
-                          <br>
+          
                           <input type="checkbox" name="topic"
                           value="htmlNews"/>HTML News <br>
                           <input type="checkbox" name="topic"
@@ -173,14 +173,14 @@
                             "Alternatively, you can nest the <input> directly inside the <label>, 
                             in which case the for and id attributes are not needed 
                             because the association is implicit:-->
-                              <br>
+                          <br>
                           <input type="radio" name="format" value="html"> HTML <br>
                           <input type="radio" name="format" value="plainText"> Plain text
                         </div>
                          </label>
                         
                         <div class="textArea">
-                        <label for="otherTopics"> Other topics you'd like to hear about</label><br>
+                        <label for="otherTopics"> Other topics you'd like to hear about</label>
                           <textarea placeholder="I wanna know more about..." name="other" id="otherTopics" ></textarea>
                           </textarea>
                         </div>
