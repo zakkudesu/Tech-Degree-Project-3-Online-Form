@@ -4,12 +4,13 @@ body{
 }
 
 input:focus { 
-    background-color: #e8f8ee;
+    background-color: #bff8bf;
+    outline: none !important;
   }
 
 textarea:focus { 
-    border-color: #71ce90;
-    box-shadow: 0 0 10px #71ce90;
+    background-color: #bff8bf;
+    outline: none !important;
 }
 
 .largescreens{
