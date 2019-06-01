@@ -19,7 +19,7 @@
     
     <main>
 
-
+      <div class="mobile">
         <form action="/zachs-online-form" method="post">
 
                 <fieldset>
@@ -27,27 +27,27 @@
                       Contact Information
                   </legend>
                     <div>
-                      <label for="name">Full Name</label>
+                      <label for="name">Full Name</label><br>
                       <input type="text" id="name" name="user_name"  placeholder="required">
                     </div>
                     <div>
-                      <label for="mail">E-mail Address</label>
+                      <label for="mail">E-mail Address</label><br>
                       <input type="email" id="mail" name="user_mail" placeholder="required">
                     </div>
                     <div>
-                      <label for="phone">Phone Number</label>
+                      <label for="phone">Phone Number</label><br>
                       <input type="telephone" id="phone" name="user_phone" placeholder="555-555-5555">
                     </div>
                     <div>
-                      <label for="address">Street Address</label>
+                      <label for="address">Street Address</label><br>
                       <input type="text" id="address" name="user_address" placeholder="125 Main St.">
                     </div>
                     <div>
-                      <label for="city">City</label>
+                      <label for="city">City</label><br>
                       <input type="text" id="city" name="user_address" placeholder="Smallville">
                     </div>
                     <div> 
-                      <label for="state">State</label> 
+                      <label for="state">State</label><br>
                       <select name="chooseState" id="state">
                         <option value=""></option>
                         <option value=""></option>
@@ -55,7 +55,7 @@
                       </select>
                     </div>
                     <div>
-                        <label for="zipcode">Zipcode</label>
+                        <label for="zipcode">Zipcode</label><br>
                         <input type="text" id="zipcode" name="user_zipcode" placeholder="12345">
                       </div>
                 </fieldset>
@@ -104,6 +104,94 @@
                         <button type="submit">Sign Up</button>
                 </div>
         </form>
+      </div>
+
+      <div class="largescreens">
+          <form action="/zachs-online-form" method="post">
+  
+                  <fieldset>
+                    <legend>
+                        Contact Information
+                    </legend>
+                      <div>
+                        <label for="name">Full Name</label><br>
+                        <input type="text" id="name" name="user_name"  placeholder="required">
+                      </div>
+                      <div>
+                        <label for="mail">E-mail Address</label><br>
+                        <input type="email" id="mail" name="user_mail" placeholder="required">
+                      </div>
+                      <div>
+                        <label for="phone">Phone Number</label><br>
+                        <input type="telephone" id="phone" name="user_phone" placeholder="555-555-5555">
+                      </div>
+                      <div>
+                        <label for="address">Street Address</label><br>
+                        <input type="text" id="address" name="user_address" placeholder="125 Main St.">
+                      </div>
+                      <div>
+                        <label for="city">City</label><br>
+                        <input type="text" id="city" name="user_address" placeholder="Smallville">
+                      </div>
+                      <div> 
+                        <label for="state">State</label><br>
+                        <select name="chooseState" id="state">
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                        </select>
+                      </div>
+                      <div>
+                          <label for="zipcode">Zipcode</label><br>
+                          <input type="text" id="zipcode" name="user_zipcode" placeholder="12345">
+                        </div>
+                  </fieldset>
+  
+                    <fieldset>
+                        <legend>
+                            Newsletter
+                        </legend>
+                          <div class="newsletter">
+                          <label>Select the newsletters you would like to recieve
+                            <!-- MDN Label Element Documentation:
+                            "Alternatively, you can nest the <input> directly inside the <label>, 
+                            in which case the for and id attributes are not needed 
+                            because the association is implicit:-->
+                          <br>
+                          <input type="checkbox" name="topic"
+                          value="htmlNews"/>HTML News <br>
+                          <input type="checkbox" name="topic"
+                          value="cssNews">CSS News <br>
+                          <input type="checkbox" name="topic"
+                          value="javaScriptNews">JavaScript News
+                          </div>
+                        </label>
+  
+                        <div class="format">
+                            <label>Newsletter format
+                           <!-- MDN Label Element Documentation:
+                            "Alternatively, you can nest the <input> directly inside the <label>, 
+                            in which case the for and id attributes are not needed 
+                            because the association is implicit:-->
+                              <br>
+                          <input type="radio" name="format" value="html"> HTML <br>
+                          <input type="radio" name="format" value="plainText"> Plain text
+                        </div>
+                         </label>
+                        
+                        <div class="textArea">
+                        <label for="otherTopics"> Other topics you'd like to hear about</label><br>
+                          <textarea placeholder="I wanna know more about..." name="other" id="otherTopics" ></textarea>
+                          </textarea>
+                        </div>
+  
+                    </fieldset>
+  
+                   <div class="button">
+                          <button type="submit">Sign Up</button>
+                  </div>
+          </form>
+        </div>
 
 
 
