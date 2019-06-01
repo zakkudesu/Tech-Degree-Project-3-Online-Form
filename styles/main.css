@@ -1,4 +1,7 @@
 /* Universal Styles */
+body{
+    font-family: 'Noto Serif', serif;
+}
 
 .largescreens{
     display:none;
