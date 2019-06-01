@@ -60,13 +60,18 @@ legend{
 
 #signup{
     font-size: 200%;
-    background: #35e953;
+    background: #5e5c5c;
     padding: .5em 3em;
     border: none;
     color: #fff;
     text-align: center;
     display: block;
+    margin: auto;
     
+}
+
+#signup:hover{
+    background: coral;
 }
 
 
