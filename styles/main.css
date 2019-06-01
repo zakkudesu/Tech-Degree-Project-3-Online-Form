@@ -4,12 +4,12 @@ body{
 }
 
 input:focus { 
-    background-color: #bff8bf;
+    background-color: #e7e7e7;
     outline: none !important;
   }
 
 textarea:focus { 
-    background-color: #bff8bf;
+    background-color:#e7e7e7 ;
     outline: none !important;
 }
 
