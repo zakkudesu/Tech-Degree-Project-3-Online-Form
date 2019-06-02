@@ -44,6 +44,7 @@ fieldset{
 input{
     border-radius: 5px;
     padding: 20px 20px 20px 90px;
+    background-color: #e7e7e7;
 }
 
 .mobile input{
@@ -89,7 +90,6 @@ legend{
 
 input:focus { 
     background-color: #e7e7e7;
-    outline: none !important;
   }
 
 textarea:focus { 
@@ -112,6 +112,10 @@ textarea:focus {
         display: flex;
         flex-direction: column;
         
+    }
+
+    input{
+        text-align: right;
     }
 
     fieldset{
