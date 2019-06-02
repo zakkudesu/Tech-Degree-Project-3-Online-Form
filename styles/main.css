@@ -1,8 +1,9 @@
 /* Universal Styles */
+
 body{
     font-family: 'Noto Serif', serif;
-
 }
+
 
 h2{
     text-transform: uppercase;
@@ -20,37 +21,35 @@ footer{
     text-align: center;
 }
 
-h1,
-p{
-    background-color: #5e5c5c;
-    color: #fff;
-    margin: 0;
-}
 
 h1{
     padding-top: 1em;
 }
 
 p{
-    padding: 1.5em;
+    padding: .5em;
     
 }
 
 fieldset{
     border: none;
-    padding: 2em;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    padding-left: 0;
+    padding-right: 0;
+    margin:0;
 }
 
 input{
     border-radius: 5px;
-    padding: 20px 20px 20px 90px;
+    padding: 10px 10px 10px 90px;
     background-color: #e7e7e7;
 }
 
 .mobile input{
     display: block;
-    width:300px;
     text-align: right;
+    width: auto;
 
 }
 
@@ -67,6 +66,11 @@ footer{
 
 legend{
     font-size: 150%;
+}
+
+label{
+    color: #474646;
+    padding-left: 5%;
 }
 
 
@@ -101,12 +105,18 @@ textarea:focus {
     display:none;
 }
 
+
+
 /* Media Queries */
 @media screen and (min-width: 768px){
 
+    
     .mobile{
         display:none;
+
     }
+
+
 
     .largescreens{
         display: flex;
@@ -116,11 +126,15 @@ textarea:focus {
 
     input{
         text-align: right;
+        display: block;
+        width: auto;
     }
 
     fieldset{
         display: flex;
         text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
         
     }
 
@@ -128,6 +142,9 @@ textarea:focus {
         text-align: left;
     }
 
-
+    .format{
+        margin-top: 3em; 
+        font-size: 110%;
+    }
 
 }
