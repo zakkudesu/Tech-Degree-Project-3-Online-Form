@@ -1,4 +1,7 @@
 /* Universal Styles */
+*{
+    box-sizing: border-box;
+}
 
 body{
     font-family: 'Noto Serif', serif;
@@ -103,6 +106,13 @@ textarea:focus {
 
 .largescreens{
     display:none;
+}
+
+.newsletter,
+.format {
+    padding-left:1em;
+    padding-right:1em;
+    padding-bottom: 2em;
 }
 
 
