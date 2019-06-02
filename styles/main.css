@@ -73,9 +73,12 @@ legend{
 
 label{
     color: #474646;
-    padding-left: 5%;
+    padding-left: 0;
 }
 
+.info{
+    padding-left: 5%;
+}
 
 
 #signup{
@@ -137,12 +140,11 @@ textarea:focus {
     input{
         text-align: right;
         display: block;
-        width: auto;
+        width: 614px;
     }
 
     fieldset{
         display: flex;
-        text-align: left;
         margin-left: 10%;
         margin-right: 10%;
         
@@ -150,6 +152,10 @@ textarea:focus {
 
     legend{
         text-align: left;
+    }
+
+    label{
+        padding-left: 0;
     }
 
     .format{
