@@ -140,7 +140,7 @@ textarea:focus {
     input{
         text-align: right;
         display: block;
-        width: 614px;
+        width: 500px;
     }
 
     fieldset{
@@ -158,9 +158,17 @@ textarea:focus {
         padding-left: 0;
     }
 
+    input{
+        display: inline;
+        text-align: right;
+    }
+
     .format{
         margin-top: 3em; 
         font-size: 110%;
     }
+
+
+
 
 }
