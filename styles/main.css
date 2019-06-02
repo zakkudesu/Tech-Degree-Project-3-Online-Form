@@ -39,8 +39,15 @@ p{
 fieldset{
     border: none;
     padding: 2em;
-    margin: 5%;
 }
+
+.mobile input{
+    display: block;
+    padding: 5px 5px 5px 30px;
+    width:320px;
+
+}
+
 
 hr{
     margin-bottom: 1em
