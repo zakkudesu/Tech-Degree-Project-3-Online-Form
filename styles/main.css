@@ -163,7 +163,7 @@ textarea:focus {
     }
 
     fieldset{
-        padding-left: 4em;
+        padding-left: 1em;
         padding-right: 1em;
         
     }
@@ -184,9 +184,19 @@ textarea:focus {
     .format{
         margin-top: 3em; 
         font-size: 110%;
-
-
     }
 
+    #signup{
+        font-size: 200%;
+        background: #5e5c5c;
+        padding: .5em 3em;
+        border: none;
+        color: #fff;
+        text-align: center;
+        display: block;
+        margin: auto;
+        width: 500px;
+        
+    }
 
 }
