@@ -36,6 +36,10 @@ p{
     
 }
 
+hr{
+    border-style: ridge;
+}
+
 fieldset{
     border: none;
     padding-top: .75em;
@@ -50,6 +54,11 @@ input
     border-radius: 5px;
     padding: 10px 10px 10px 90px;
     background-color: #e7e7e7;
+}
+
+#zipcode{
+    padding: 10px 10px 10px 20px;
+    width: 100px;
 }
 
 .mobile{
@@ -81,7 +90,7 @@ footer{
 
 legend{
     font-size: 150%;
-    margin-left: auto;
+    /* margin-left: auto; */
     margin-right: auto;
 }
 
@@ -163,9 +172,16 @@ textarea:focus {
         align-content: space-between;
     }
 
+
     input{
         text-align: right;
         width: 50%;
+    }
+
+    #zipcode{
+        padding: 10px 10px 10px 20px;
+        width: 100px;
+        align-self: auto;
     }
 
     fieldset{
