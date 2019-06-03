@@ -222,4 +222,7 @@ input:focus {
         
     }
 
+    .textArea{
+        display: block;
+    }
 }
