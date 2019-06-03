@@ -90,7 +90,6 @@ hr{
 
 footer{
     padding: 1em;
-    font-size: 125%;
 }
 
 legend{
@@ -109,14 +108,14 @@ label{
 
 
 #signup{
-    font-size: 200%;
+    font-size: 150%;
     background: #5e5c5c;
     padding: .5em 3em;
     border: none;
     color: #fff;
     text-align: center;
     display: block;
-    margin-left: 10px;
+    margin-left: auto;
     margin-right: auto;
     
 }
