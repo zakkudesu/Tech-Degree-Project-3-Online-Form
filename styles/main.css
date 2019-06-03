@@ -129,10 +129,9 @@ textarea:focus {
 
     }
 
-    select{
-        padding: 10px 10px 10px 90px;
+    div{
+        width:768px;
     }
-
 
     .largescreens{
         display: flex;
@@ -173,8 +172,5 @@ textarea:focus {
 
     }
 
-    footer{
-        max-width: 768px;
-    }
 
 }
