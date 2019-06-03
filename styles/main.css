@@ -164,8 +164,7 @@ input:focus {
     }
 
     label,
-    input,
-    #state{
+    input{
 
         margin-right: auto;
     }
