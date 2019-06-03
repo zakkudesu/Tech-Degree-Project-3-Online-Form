@@ -129,9 +129,6 @@ textarea:focus {
 
     }
 
-    div{
-        width:768px;
-    }
 
     .largescreens{
         display: flex;
