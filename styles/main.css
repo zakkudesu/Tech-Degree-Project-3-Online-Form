@@ -43,11 +43,13 @@ fieldset{
     margin:0;
 }
 
-input{
+input
+    {
     border-radius: 5px;
     padding: 10px 10px 10px 90px;
     background-color: #e7e7e7;
 }
+
 
 .mobile input{
     display: block;
@@ -137,14 +139,25 @@ textarea:focus {
         
     }
 
+    label,
+    input,
+    .state{
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div{
+        align-content: space-between;
+        display:flex;
+    }
+
     input{
         text-align: right;
-        /* display: block; */
-          width: 50%;
+        width: 50%;
     }
 
     fieldset{
-        /* display: flex; */
         padding-left: 4em;
         padding-right: 1em;
         
@@ -158,10 +171,10 @@ textarea:focus {
         padding-left: 0;
     }
 
-    input{
+    /* input{
         display: inline;
         text-align: right;
-    }
+    } */
 
     .format{
         margin-top: 3em; 
