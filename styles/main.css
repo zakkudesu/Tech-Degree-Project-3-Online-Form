@@ -5,6 +5,8 @@ Universal Styles
 
  body{
     font-family: 'Noto Serif', serif;
+    padding-left: 5%;
+    padding-right: 5%
 }
 
 
@@ -51,6 +53,9 @@ input
 }
 
 .mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;
@@ -76,6 +81,8 @@ footer{
 
 legend{
     font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 label{
@@ -138,8 +145,9 @@ textarea:focus {
 
     .largescreens{
         display: flex;
-        flex-direction: column;
-        max-width: 768px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
         
     }
 
