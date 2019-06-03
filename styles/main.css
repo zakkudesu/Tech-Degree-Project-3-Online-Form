@@ -53,7 +53,7 @@ input
     {
     border-radius: 5px;
     padding: 10px 10px 10px 90px;
-    background-color: #e7e7e7;
+    background-color: #f1f1f1;
 }
 
 #zipcode{
@@ -90,7 +90,6 @@ footer{
 
 legend{
     font-size: 150%;
-    /* margin-left: auto; */
     margin-right: auto;
 }
 
@@ -125,10 +124,14 @@ input:focus {
     background-color: #e7e7e7;
   }
 
-textarea:focus { 
+
+
+  textarea:focus { 
     background-color:#e7e7e7 ;
     outline: none !important;
 }
+
+
 
 .largescreens{
     display:none;
@@ -175,13 +178,15 @@ textarea:focus {
 
     input{
         text-align: right;
-        width: 50%;
+        margin-top: 0;
     }
+
+
 
     #zipcode{
         padding: 10px 10px 10px 20px;
         width: 100px;
-        align-self: auto;
+    
     }
 
     fieldset{
@@ -198,14 +203,10 @@ textarea:focus {
         padding-left: 0;
     }
 
-    /* input{
-        display: inline;
-        text-align: right;
-    } */
 
-    .format{
-        margin-top: 3em; 
-        font-size: 110%;
+    .newsletter, .format{
+        margin:8px;
+        padding-bottom: 0;
     }
 
     #signup{
@@ -217,7 +218,7 @@ textarea:focus {
         text-align: center;
         display: block;
         margin:auto;
-        width: 500px;
+        width: 100%;
         
     }
 
