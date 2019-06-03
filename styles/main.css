@@ -141,9 +141,8 @@ textarea:focus {
 
     label,
     input,
-    .state{
+    #state{
 
-        margin-left: auto;
         margin-right: auto;
     }
 
