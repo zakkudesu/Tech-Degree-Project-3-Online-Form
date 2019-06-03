@@ -242,7 +242,8 @@
     color: inherit; /* 2 */
     display: table; /* 1 */
     max-width: 100%; /* 1 */
-    padding: 5%; 
+    /* padding: 5%;  */
+    margin-bottom: 1em;
     white-space: normal; /* 1 */
   }
   

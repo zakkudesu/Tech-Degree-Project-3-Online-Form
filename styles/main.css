@@ -154,6 +154,7 @@ textarea:focus {
     div{
         align-content: space-between;
         display:flex;
+
     }
 
     input{
@@ -183,6 +184,7 @@ textarea:focus {
     .format{
         margin-top: 3em; 
         font-size: 110%;
+
 
     }
 
