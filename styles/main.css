@@ -53,10 +53,9 @@ fieldset{
 
 input
     {
-    border-radius: 5px;
-    padding: 10px 10px 10px 90px;
+    border-radius: 8px;
+    padding: 16px 50px 16px 90px;
     background-color: #c7c5c5;
-    
 }
 
 #zipcode{
@@ -65,7 +64,7 @@ input
 }
 
 select{
-    width:272px;
+    width:310px;
 }
 
 .mobile{
