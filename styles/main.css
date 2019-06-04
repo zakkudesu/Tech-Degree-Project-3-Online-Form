@@ -3,7 +3,7 @@ Universal Styles
     box-sizing: border-box;
 }
 
-  body{ 
+body{ 
     font-family: 'Quicksand', sans-serif;
     padding-left: 5%;
     padding-right: 5%;
@@ -65,7 +65,7 @@ input
 }
 
 select{
-    width:294px;
+    width:272px;
 }
 
 .mobile{
@@ -104,7 +104,7 @@ legend{
 
 label{
     color: #474646;
-    padding-left: 0;
+    /* padding-left: 0; */
 }
 
 .info{
@@ -134,11 +134,12 @@ input:focus {
     background-color: #e7e7e7;
   }
 
-
+textarea{
+    background: #f5d7cd;
+}
 
 textarea:focus { 
-    background-color:#e7e7e7 ;
-    outline: none !important;
+    background-color:#fff ;
 }
 
 input[type=checkbox]{
@@ -173,7 +174,6 @@ input[type=radio]{
         display:none;
 
     }
-
 
     .largescreens{
         display: flex;
