@@ -6,7 +6,8 @@ Universal Styles
   body{ 
     font-family: 'Noto Serif', serif;
     padding-left: 5%;
-    padding-right: 5%
+    padding-right: 5%;
+    min-width: 320px;
 }
 
 
