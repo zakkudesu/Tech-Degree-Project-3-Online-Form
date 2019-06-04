@@ -64,7 +64,8 @@ input
 }
 
 select{
-    width:310px;
+    min-width:320px;
+    background:#c7c5c5;
 }
 
 .mobile{
@@ -135,7 +136,7 @@ input:focus {
 
 textarea{
     background: #f5d7cd;
-    width:310px;
+    min-width:310px;
 }
 
 textarea:focus { 
@@ -202,7 +203,7 @@ input[type=radio]{
 
 
 
-    #zipcode{
+    #zipcodeL{
         padding: 10px 10px 10px 20px;
         width: 100px;
         margin-right: 39%;
@@ -242,7 +243,10 @@ input[type=radio]{
     .textArea{
         display: block;
         text-align: center;
+
     }
 
-
+    textarea{
+        min-width: 500px;
+    }
 }
