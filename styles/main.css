@@ -3,7 +3,7 @@ Universal Styles
     box-sizing: border-box;
 }
 
- body{
+  body{ 
     font-family: 'Noto Serif', serif;
     padding-left: 5%;
     padding-right: 5%
@@ -54,6 +54,7 @@ input
     border-radius: 5px;
     padding: 10px 10px 10px 90px;
     background-color: #f1f1f1;
+    
 }
 
 #zipcode{
@@ -79,6 +80,7 @@ select{
     display: block;
     text-align: right;
     width: auto;
+    margin-top: 1em;
 
 }
 
@@ -93,8 +95,9 @@ footer{
 }
 
 legend{
-    font-size: 150%;
-    margin-right: auto;
+    font-size: 120%;
+    padding-left: 1em;
+
 }
 
 label{
@@ -144,6 +147,8 @@ input[type=checkbox]{
 
 input[type=radio]{
     display: inline;
+    margin-left: 0;
+    margin-top: 1em;
 }
 
 .largescreens{
@@ -155,10 +160,6 @@ input[type=radio]{
     padding-bottom: 2em;
     padding-left: 1em;
 } 
-
-legend{
-    padding-left: 1em;
-}
 
 
 
@@ -202,14 +203,9 @@ legend{
     #zipcode{
         padding: 10px 10px 10px 20px;
         width: 100px;
-    
+        margin-right: 39%;
     }
 
-    fieldset{
-        padding-left: 1em;
-        padding-right: 1em;
-        
-    }
 
     legend{
         text-align: left;
@@ -225,6 +221,9 @@ legend{
         padding-bottom: 0;
     }
 
+    .format{
+        padding-left:0;
+    }
     #signup{
         font-size: 200%;
         background: #5e5c5c;
@@ -241,4 +240,6 @@ legend{
     .textArea{
         display: block;
     }
+
+
 }
