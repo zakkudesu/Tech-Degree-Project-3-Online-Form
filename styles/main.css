@@ -4,10 +4,11 @@ Universal Styles
 }
 
   body{ 
-    font-family: 'Noto Serif', serif;
+    font-family: 'Quicksand', sans-serif;
     padding-left: 5%;
     padding-right: 5%;
     min-width: 320px;
+    background: #ececec;
 }
 
 
@@ -54,7 +55,7 @@ input
     {
     border-radius: 5px;
     padding: 10px 10px 10px 90px;
-    background-color: #f1f1f1;
+    background-color: #c7c5c5;
     
 }
 
@@ -135,7 +136,7 @@ input:focus {
 
 
 
-  textarea:focus { 
+textarea:focus { 
     background-color:#e7e7e7 ;
     outline: none !important;
 }
@@ -225,6 +226,7 @@ input[type=radio]{
     .format{
         padding-left:0;
     }
+
     #signup{
         font-size: 200%;
         background: #5e5c5c;
@@ -234,13 +236,11 @@ input[type=radio]{
         text-align: center;
         display: block;
         margin:auto;
-        width: 100%;
-        
+        width: 100%;   
     }
 
     .textArea{
         display: block;
     }
-
 
 }
