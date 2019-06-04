@@ -136,7 +136,15 @@ input:focus {
     outline: none !important;
 }
 
+input[type=checkbox]{
+    display: inline;
+    margin-left: 0;
+    margin-top: 1em;
+}
 
+input[type=radio]{
+    display: inline;
+}
 
 .largescreens{
     display:none;
