@@ -135,6 +135,7 @@ input:focus {
   }
 
 textarea{
+    display: block;
     background: #f5d7cd;
     min-width:310px;
 }
@@ -218,14 +219,16 @@ input[type=radio]{
         padding-left: 0;
     }
 
-
     .newsletter{
-        margin:8px;
-        padding-bottom: 0;
+        padding-left: 0;
+        display: block;
     }
+
 
     .format{
         padding-left:0;
+        display: block;
+        color: #5e5c5c;
     }
 
     #signup{
@@ -249,4 +252,6 @@ input[type=radio]{
     textarea{
         min-width: 500px;
     }
+
+    
 }

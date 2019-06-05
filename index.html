@@ -112,7 +112,7 @@
                        
                       
                       <div class="textArea">
-                      <label for="otherTopics" class="info"> Other topics you'd like to hear about</label>
+                      <label for="otherTopics"> Other topics you'd like to hear about</label>
                         <textarea rows="5" cols="35" placeholder="Tell me about..." name="other" id="otherTopics" ></textarea>
                       </div>
                       
@@ -135,28 +135,28 @@
                         Contact Information
                     </legend>
                       <div>
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" name="user_name"  placeholder="required">
+                        <label for="nameLarge">Full Name</label>
+                        <input type="text" id="nameLarge" name="user_name"  placeholder="required">
                       </div>
                       <div>
-                        <label for="mail">E-mail Address</label>
-                        <input type="email" id="mail" name="user_mail" placeholder="required">
+                        <label for="mailLarge">E-mail Address</label>
+                        <input type="email" id="mailLarge" name="user_mail" placeholder="required">
                       </div>
                       <div>
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="user_phone" placeholder="555-555-5555">
+                        <label for="phoneLarge">Phone Number</label>
+                        <input type="tel" id="phoneLarge" name="user_phone" placeholder="555-555-5555">
                       </div>
                       <div>
-                        <label for="address">Street Address</label>
-                        <input type="text" id="address" name="user_address" placeholder="125 Main St.">
+                        <label for="addressLarge">Street Address</label>
+                        <input type="text" id="addressLarge" name="user_address" placeholder="125 Main St.">
                       </div>
                       <div>
-                        <label for="city">City</label>
-                        <input type="text" id="city" name="user_city" placeholder="Smallville">
+                        <label for="cityLarge">City</label>
+                        <input type="text" id="cityLarge" name="user_city" placeholder="Smallville">
                       </div>
                       <div> 
-                        <label for="state" class="state">State</label>
-                        <select name="chooseState" id="state" class="state">
+                        <label for="stateLarge" class="state">State</label>
+                        <select name="chooseState" id="stateLarge" class="state">
                           <option value="" disabled selected>Choose State</option>
                           <option value="">California</option>
                           <option value="">New York</option>
@@ -166,7 +166,7 @@
                         </select>
                       </div>
                       <div>
-                          <label for="zipcode">Zipcode</label>
+                          <label for="zipcodeL">Zipcode</label>
                           <input type="text" id="zipcodeL" name="user_zipcode" placeholder="12345">
                         </div>
                   </fieldset>
@@ -176,44 +176,50 @@
                         <legend>
                             Newsletter
                         </legend>
-                          <div class="newsletter">
-                          <label>Select the newsletters you would like to recieve
-                            <!-- MDN Label Element Documentation:
-                            "Alternatively, you can nest the <input> directly inside the <label>, 
-                            in which case the for and id attributes are not needed 
-                            because the association is implicit:-->
+                        <div class="newsletter">
+                          <span>Select the newsletters you would like to recieve</span>
+                        
                           <br>
-                          <br>
+  
+                          <label for="htmlNewsL">
                           <input type="checkbox" name="topic"
-                          value="htmlNews" class="checkbox"/>HTML News <br>
+                          id="htmlNewsL" class="checkbox"/>HTML News
+                          </label> <br>
+  
+                          <label for="cssNewsL">
                           <input type="checkbox" name="topic"
-                          value="cssNews" class="checkbox"/>CSS News <br>
+                          id="cssNewsL" class="checkbox"/>CSS News 
+                          </label> <br>
+  
+                          <label for="javaScriptNewsL">
                           <input type="checkbox" name="topic"
-                          value="javaScriptNews" class="checkbox"/>JavaScript News
-                        </label>
+                          id="javaScriptNewsL" class="checkbox"/>JavaScript News
+                          </label><br>
                           </div>
                         
     
   
-                        <div class="format">
-                            <label class="newsletter">Newsletter format
-                           <!-- MDN Label Element Documentation:
-                            "Alternatively, you can nest the <input> directly inside the <label>, 
-                            in which case the for and id attributes are not needed 
-                            because the association is implicit:-->
-                            <br>
-                          <input type="radio" name="format" value="html"> HTML <br>
-                          <input type="radio" name="format" value="plainText"> Plain text <br>
+                          <div class="format">
+                            <span>Newsletter format</span>
+                              <br>
+                          <label for="htmlLarge">    
+                          <input type="radio" name="format" id="htmlLarge"> HTML 
+                          </label>  
+                          <br>
+                          <label for="plainTextLarge">
+                          <input type="radio" name="format" id="plainTextLarge"> Plain text
                         </label>
                         </div>
                        
                         
                         <div class="textArea">
-                        <label for="otherTopics">Other topics you'd like to hear about</label>
+                        <label for="otherTopicsLarge">Other topics you'd like to hear about
                         <br>
                         <br>
-                          <textarea rows="5" cols="45" placeholder="Tell me about..." name="other" id="otherTopics" ></textarea>
+                          <textarea rows="5" cols="45" placeholder="Tell me about..." name="other"
+                           id="otherTopicsLarge" >
                           </textarea>
+                        </label>
                         </div>
 
                         <div class="button">
