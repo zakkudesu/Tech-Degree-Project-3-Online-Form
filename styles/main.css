@@ -172,7 +172,9 @@ input[type=radio]{
     padding-left: 1em;
 } 
 
-
+#other{
+    padding-left: 1em;
+}
 
 
 /* Media Queries */
