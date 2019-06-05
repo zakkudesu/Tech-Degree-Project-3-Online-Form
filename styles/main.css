@@ -132,6 +132,7 @@ label{
 
 input:focus { 
     background-color: #e7e7e7;
+    transition: all .08s linear;
   }
 
 textarea{
@@ -142,6 +143,7 @@ textarea{
 
 textarea:focus { 
     background-color:#fff ;
+    transition: all .08s linear;
 }
 
 input[type=checkbox]{
@@ -208,6 +210,7 @@ input[type=radio]{
         padding: 10px 10px 10px 20px;
         width: 100px;
         margin-right: 39%;
+        margin-left: 26%;
     }
 
 
