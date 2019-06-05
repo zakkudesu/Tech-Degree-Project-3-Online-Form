@@ -20,12 +20,14 @@ h2{
     margin: 0;
     padding-top: 2em;
     padding-bottom: 1em;
+    min-width: 320px;
 }
 
 h1,
 p,
 footer{
     text-align: center;
+    min-width:320px;
 }
 
 
@@ -225,7 +227,7 @@ input[type=radio]{
 
     .newsletter{
         padding-left: 0;
-        display: block;
+        display: block
     }
 
 
