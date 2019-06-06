@@ -181,12 +181,12 @@ input[type=radio]{
 /* Media Queries */
   @media screen and (min-width: 768px){
 
-    
- 
-    div{
-        display:flex;
-        flex-direction: column;
-        width: 768px;
-    }
 
+    .contact label,
+    .contact input,
+    #zip,
+    #zipcode  {
+        display: inline-block;
+        width: 40%;
+    }
 }
