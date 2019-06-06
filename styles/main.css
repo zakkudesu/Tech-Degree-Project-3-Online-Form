@@ -181,89 +181,12 @@ input[type=radio]{
   @media screen and (min-width: 768px){
 
     
-    .mobile{
-        display:none;
-
-    }
-
-    .largescreens{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column; 
-        
-    }
-
-    label,
-    input{
-
-        margin-right: auto;
-    }
-
+ 
     div{
         display:flex;
-        align-content: space-between;
-    }
+        flex-direction: column;
+        width: 768px;
 
-
-    input{
-        text-align: right;
-        margin-top: 0;
-    }
-
-
-
-    #zipcodeL{
-        padding: 10px 10px 10px 20px;
-        width: 100px;
-        margin-right: 45%;
-    }
-
-
-    legend{
-        text-align: left;
-    }
-
-    label{
-        padding-left: 0;
-    }
-
-    .newsletter{
-        padding-left: 0;
-        display: block
-    }
-
-
-    .format{
-        padding-left:0;
-        display: block;
-        color: #5e5c5c;
-    }
-
-    #signupL{
-        font-size: 200%;
-        background: #5e5c5c;
-        padding: .5em 3em;
-        border: none;
-        color: #fff;
-        text-align: center;
-        display: block;
-        margin:auto;
-        width: 100%;   
-    }
-
-    #signupL:hover{
-        background: coral;
-    }
-
-    .textArea{
-        display: block;
-        text-align: center;
-
-    }
-
-    textarea{
-        min-width: 500px;
     }
 
     

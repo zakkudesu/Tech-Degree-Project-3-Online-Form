@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Online Form</title>
-    <link href="styles/main.css" rel="stylesheet"/>
-    <link href="styles/normalize.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet"/>
+    <link href="styles/main.css" rel="stylesheet"/>
+    
+    
 </head>
 <body>
     <header>
@@ -20,7 +22,6 @@
       <p>Get the latest news on how your code is doing right in your inbox</p>
      <hr>
 
-<!-- start div for mobile form -->
       <div class="mobile">
           
         <form>
@@ -31,27 +32,22 @@
                       Contact Information
                   </legend>
                     <div>
-                      <label for="name" class="info">Full Name</label><br>
+                      <label for="name" class="info">Full Name</label>
                       <input type="text" id="name" name="user_name"  placeholder="required" >
-                    </div>
-                     <div>
-                      <label for="mail" class="info">E-mail Address</label><br>
+                    
+                      <label for="mail" class="info">E-mail Address</label>
                       <input type="email" id="mail" name="user_mail" placeholder="required">
-                    </div>
-                    <div>
-                      <label for="phone" class="info">Phone Number</label><br>
+                    
+                      <label for="phone" class="info">Phone Number</label>
                       <input type="tel" id="phone" name="user_phone" placeholder="555-555-5555">
-                    </div>
-                    <div>
-                      <label for="address" class="info">Street Address</label><br>
+                    
+                      <label for="address" class="info">Street Address</label>
                       <input type="text" id="address" name="user_address" placeholder="125 Main St.">
-                    </div>
-                    <div>
-                      <label for="city" class="info">City</label><br>
+                    
+                      <label for="city" class="info">City</label>
                       <input type="text" id="city" name="user_address" placeholder="Smallville">
-                    </div>
-                    <div> 
-                      <label for="state" class="info">State</label><br>
+                     
+                      <label for="state" class="info">State</label>
                       <select name="chooseState" id="state">
                         <option value="" disabled selected>Choose State</option>
                         <option value="">California</option>
@@ -60,9 +56,8 @@
                         <option value="">Texas</option>
                         <option value="">Washington</option>
                       </select>
-                    </div>
-                    <div>
-                        <label for="zipcode" class="info">Zipcode</label><br>
+                    
+                        <label for="zipcode" class="info">Zipcode</label>
                         <input type="text" id="zipcode" name="user_zipcode" placeholder="12345">
                     </div>
                 </fieldset>
@@ -123,116 +118,6 @@
 
         </form>
       </div>
-<!-- end div for mobile form -->
-
-<!-- start div for largescreen form -->
-      <div class="largescreens">
-          <hr>
-          <form>
-  
-                  <fieldset>
-                    <legend>
-                        Contact Information
-                    </legend>
-                      <div>
-                        <label for="nameLarge">Full Name</label>
-                        <input type="text" id="nameLarge" name="user_name"  placeholder="required">
-                      </div>
-                      <div>
-                        <label for="mailLarge">E-mail Address</label>
-                        <input type="email" id="mailLarge" name="user_mail" placeholder="required">
-                      </div>
-                      <div>
-                        <label for="phoneLarge">Phone Number</label>
-                        <input type="tel" id="phoneLarge" name="user_phone" placeholder="555-555-5555">
-                      </div>
-                      <div>
-                        <label for="addressLarge">Street Address</label>
-                        <input type="text" id="addressLarge" name="user_address" placeholder="125 Main St.">
-                      </div>
-                      <div>
-                        <label for="cityLarge">City</label>
-                        <input type="text" id="cityLarge" name="user_city" placeholder="Smallville">
-                      </div>
-                      <div> 
-                        <label for="stateLarge" class="state">State</label>
-                        <select name="chooseState" id="stateLarge" class="state">
-                          <option value="" disabled selected>Choose State</option>
-                          <option value="">California</option>
-                          <option value="">New York</option>
-                          <option value="">Oregon</option>
-                          <option value="">Texas</option>
-                          <option value="">Washington</option>
-                        </select>
-                      </div>
-                        <div>
-                          <label for="zipcodeL">Zipcode</label>
-                          <input type="text" id="zipcodeL" name="user_zipcode" placeholder="12345">
-                        </div>
-                  </fieldset>
-              <hr>
-                    
-                    <fieldset>
-                        <legend>
-                            Newsletter
-                        </legend>
-                        <div class="newsletter">
-                          <span>Select the newsletters you would like to recieve</span>
-                        
-                          <br>
-  
-                          <label for="htmlNewsL">
-                          <input type="checkbox" name="topic"
-                          id="htmlNewsL" class="checkbox"/>HTML News
-                          </label> <br>
-  
-                          <label for="cssNewsL">
-                          <input type="checkbox" name="topic"
-                          id="cssNewsL" class="checkbox"/>CSS News 
-                          </label> <br>
-  
-                          <label for="javaScriptNewsL">
-                          <input type="checkbox" name="topic"
-                          id="javaScriptNewsL" class="checkbox"/>JavaScript News
-                          </label><br>
-                          </div>
-                        
-    
-  
-                          <div class="format">
-                            <span>Newsletter format</span>
-                              <br>
-                          <label for="htmlLarge">    
-                          <input type="radio" name="format" id="htmlLarge"> HTML 
-                          </label>  
-                          <br>
-                          <label for="plainTextLarge">
-                          <input type="radio" name="format" id="plainTextLarge"> Plain text
-                        </label>
-                        </div>
-                       
-                        
-                        <div class="textArea">
-                        <label for="otherTopicsLarge">Other topics you'd like to hear about
-                        <br>
-                        <br>
-                          <textarea rows="5" cols="45" placeholder="Tell me about..." name="other"
-                           id="otherTopicsLarge" >
-                          </textarea>
-                        </label>
-                        </div>
-
-                        <div class="button">
-                            <input type="submit" value="Sign Up" id= "signupL">
-                        </div>
-  
-                    </fieldset>
-  
-                  
-          </form>
-        </div>
-<!-- end div for largescreen form -->
-
 
     </main>
 
