@@ -52,38 +52,12 @@ input
     background-color: #c7c5c5;
 }
 
-#zip{
-    display: block
-}
-
-#zipcode{
-    padding: 10px 10px 10px 20px;
-    width: 45%;
-}
-
 select{
     width:88%;
     background:#c7c5c5;
     padding: 16px 60px 16px 90px;
     border-radius: 4px;
 }
-
-.mobile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 320px;
-    margin-left: auto;
-    margin-right: auto;  
-}
-
-.mobile input{
-    display: block;
-    text-align: right;
-    width: auto;
-    margin-top: 1em;
-}
-
 
 hr{
     margin-bottom: 1em
@@ -110,10 +84,14 @@ textarea{
     margin-right: auto;
 }
 
-.info{
-    padding-left: 5%;
+#zip{
+    display: block
 }
 
+#zipcode{
+    padding: 10px 10px 10px 20px;
+    width: 45%;
+}
 
 #signup{
     font-size: 150%;
@@ -126,6 +104,31 @@ textarea{
     margin-left: auto;
     margin-right: auto;
 }
+
+.mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.mobile input{
+    display: block;
+    text-align: right;
+    width: auto;
+    margin-top: 1em;
+}
+
+.info{
+    padding-left: 5%;
+}
+
+.newsletter,
+.format {
+    padding-bottom: 2em;
+} 
 
 #signup:hover{
     background: coral;
@@ -153,14 +156,15 @@ input[type=radio]{
     margin-top: 1em;
 }
 
-.newsletter,
-.format {
-    padding-bottom: 2em;
-} 
-
 /* Media Queries */
   @media screen and (min-width: 768px){
 
+    textarea{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
     .contact label,
     .contact input,
     #zip,
@@ -169,15 +173,8 @@ input[type=radio]{
         width: 40%;
     }
 
-
     #zipcode{
         width: 18%;
-    }
-
-    textarea{
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
     }
 
     #signup{
