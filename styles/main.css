@@ -11,7 +11,6 @@ body{
     background: #ececec;
 }
 
-
 h2{
     text-transform: uppercase;
     background-color: coral;
@@ -30,18 +29,12 @@ footer{
     min-width:320px;
 }
 
-
 h1{
     padding-top: 1em;
 }
 
 p{
     padding: .5em;
-    
-}
-
-hr{
-    border-style: ridge;
 }
 
 fieldset{
@@ -50,7 +43,6 @@ fieldset{
     padding-bottom: .75em;
     padding-left: 0;
     padding-right: 0;
-    margin:0;
 }
 
 input
@@ -67,13 +59,13 @@ input
 #zipcode{
     padding: 10px 10px 10px 20px;
     width: 45%;
-    
 }
 
 select{
     width:88%;
     background:#c7c5c5;
     padding: 16px 60px 16px 90px;
+    border-radius: 4px;
 }
 
 .mobile{
@@ -82,8 +74,7 @@ select{
     align-items: center;
     min-width: 320px;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;  
 }
 
 .mobile input{
@@ -91,13 +82,11 @@ select{
     text-align: right;
     width: auto;
     margin-top: 1em;
-
 }
 
 
 hr{
     margin-bottom: 1em
-    
 }
 
 footer{
@@ -107,7 +96,6 @@ footer{
 legend{
     font-size: 120%;
     padding-left: 1em;
-
 }
 
 label{
@@ -137,20 +125,16 @@ textarea{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
 }
-
 
 #signup:hover{
     background: coral;
 }
 
-
 input:focus { 
     background-color: #e7e7e7;
     transition: all .08s linear;
-  }
-
+}
 
 textarea:focus { 
     background-color:#fff ;
@@ -169,17 +153,10 @@ input[type=radio]{
     margin-top: 1em;
 }
 
-
 .newsletter,
 .format {
     padding-bottom: 2em;
-    padding-left: 1em;
 } 
-
-#other{
-    padding-left: 1em;
-}
-
 
 /* Media Queries */
   @media screen and (min-width: 768px){
@@ -200,7 +177,7 @@ input[type=radio]{
     textarea{
         margin-left: auto;
         margin-right: auto;
-        width: 768px;
+        width: 100%;
     }
 
     #signup{
