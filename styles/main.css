@@ -187,7 +187,6 @@ input[type=radio]{
         display:flex;
         flex-direction: column;
         width: 768px;
-
     }
 
 }
