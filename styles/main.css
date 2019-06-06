@@ -60,9 +60,14 @@ input
     background-color: #c7c5c5;
 }
 
+#zip{
+    display: block
+}
+
 #zipcode{
     padding: 10px 10px 10px 20px;
-    width: 100px;
+    width: 45%;
+    
 }
 
 select{
@@ -106,7 +111,6 @@ legend{
 
 label{
     color: #474646;
-    /* padding-left: 0; */
 }
 
 textarea{
@@ -162,9 +166,6 @@ input[type=radio]{
     margin-top: 1em;
 }
 
-.largescreens{
-    display:none;
-}
 
 .newsletter,
 .format {
