@@ -7,7 +7,7 @@ body{
     font-family: 'Quicksand', sans-serif;
     padding: 0 5%;
     min-width: 320px;
-    background: #ececec;
+    background: #fff;
 }
 
 h2{
@@ -44,7 +44,7 @@ input
     {
     border-radius: 4px;
     padding: 16px 60px 16px 90px;
-    background-color: #c7c5c5;
+    background-color: #dfdbdb;
 }
 
 select{
@@ -73,9 +73,9 @@ label{
 
 textarea{
     display: block;
-    background: #f5d7cd;
+    background: #dfdbdb;
     min-width:310px;
-    margin: 0 auto;
+    margin: 1em auto 0;
 }
 
 #zip{
@@ -128,26 +128,21 @@ textarea{
 
 textarea:focus,
 input:focus { 
-    background-color:#fff ;
+    background-color:#f5d7cd ;
     transition: all .08s linear;
 }
 
-input[type=checkbox]{
-    display: inline;
-}
-
+input[type=checkbox],
 input[type=radio]{
     display: inline;
 }
 
 /* Media Queries */
   @media screen and (min-width: 768px){
-
     textarea{
-        margin: 0 auto;
         width: 100%;
     }
-    
+
     .contact label,
     .contact input,
     #zip,
@@ -163,5 +158,4 @@ input[type=radio]{
     #signup{
         width: 100%;
     }
-
 }
