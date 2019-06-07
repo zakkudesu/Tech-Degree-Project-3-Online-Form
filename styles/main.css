@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 /* To do: 
- change the padding and margin values to shorthand */
+ change the margin values to shorthand */
 
 *{
     box-sizing: border-box;
@@ -9,8 +9,7 @@
 
 body{ 
     font-family: 'Quicksand', sans-serif;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 0 5%;
     min-width: 320px;
     background: #ececec;
 }
@@ -21,8 +20,7 @@ h2{
     color: #fff;
     text-align: center;
     margin: 0;
-    padding-top: 2em;
-    padding-bottom: 1em;
+    padding: 2em 0 1em;
     min-width: 320px;
 }
 
@@ -43,10 +41,7 @@ p{
 
 fieldset{
     border: none;
-    padding-top: .75em;
-    padding-bottom: .75em;
-    padding-left: 0;
-    padding-right: 0;
+    padding: .75em 0;
 }
 
 input
