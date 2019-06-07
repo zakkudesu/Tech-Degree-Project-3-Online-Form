@@ -96,6 +96,7 @@ textarea{
     color: #fff;
     text-align: center;
     margin: 1em auto 0 auto;
+    transition: background .75s ease-in;
 }
 
 .mobile{
@@ -123,7 +124,6 @@ textarea{
 
 #signup:hover{
     background: coral;
-    transition: all .75s ease-in;
 }
 
 textarea:focus,
